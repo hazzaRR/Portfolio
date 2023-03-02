@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <div class="hero min-h-screen bg-base-200">
+        <div class="hero min-h-screen bg-base-100">
         <div class="hero-content flex-col lg:flex-row">
             <img src="/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl h-3/12 w-3/12 rounded-full hover:w-full hover:h-full m-16" />
             <div>
