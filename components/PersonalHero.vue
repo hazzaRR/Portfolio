@@ -11,10 +11,7 @@
                  mobile development and Website development. Outside of coding I also enjoy keeping active whether thats going to the gym, playing football or running. I also enjoy watching sports in particular
                  Formula 1 and football.
             </p>
-            <!-- <button class="btn btn-primary">Get Started</button> -->
             <div>
-                <p>hey</p>
-                <p>d</p>
             </div>
             </div>
         </div>
