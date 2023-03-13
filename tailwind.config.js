@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
+  jit: true,
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
