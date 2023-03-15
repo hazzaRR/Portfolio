@@ -8,8 +8,7 @@
             <div class="card-body">
                 <h2 class="card-title">{{project.title}}</h2>
                 <p>{{ project.description }}</p>
-                <div class="card-actions justify-end">
-
+                <div class="card-actions justify-center lg:justify-end">
                     <a :href="project.link"><button class="btn btn-primary">Repository Url</button></a>
                 </div>
             </div>
