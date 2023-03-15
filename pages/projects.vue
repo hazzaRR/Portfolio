@@ -21,8 +21,8 @@
 
 <script setup>
 
-import carpark from 'public/carpark.png'
-import beautyroomcalendar from 'public/beautyroomcalendar.png'
+import carpark from 'assets/img/carpark.png'
+import beautyroomcalendar from 'assets/img/beautyroomcalendar.png'
 
 
 const projects = {

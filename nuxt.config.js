@@ -13,7 +13,10 @@ export default defineNuxtConfig({
 
         ],
       },
-      baseURL: '/Portfolio/', // baseURL: '/<repository>/'
+      // baseURL: '/Portfolio/', // baseURL: '/<repository>/'
+      router: {
+        base: '/Portfolio'
+      },
     },
     modules: [
       '@nuxtjs/tailwindcss'
