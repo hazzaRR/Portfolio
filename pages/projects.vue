@@ -21,27 +21,24 @@
 
 <script setup>
 
-import carpark from 'assets/img/carpark.png'
-import beautyroomcalendar from 'assets/img/beautyroomcalendar.png'
-
 
 const projects = {
 
     exerciseClassification: {
         title: "Gym exercise classification using time series",
-        source: carpark,
+        source: "/beautyroomcalendar.png",
         description: "My third year project which was coded in python using the sktime library to classify and predict gym exercises",
         link: "https://github.com/hazzaRR/ExerciseClassification"
     },
     carParkSystem: {
         title: "Car park System",
-        source: beautyroomcalendar,
+        source: "/carpark.png",
         description: "My software engineering group project that we built using vanilla Javascript, HTML and CSS",
         link: "https://github.com/hazzaRR/Parkarino"
     },
     appBookingSystem: {
         title: "Appointment Booking System",
-        source: beautyroomcalendar,
+        source: "/beautyroomcalendar.png",
         description: "An appointment booking system for a small local business that allows the owner to manage their appointments.",
         link: "https://github.com/hazzaRR/BeautyRoomBookings"
     },

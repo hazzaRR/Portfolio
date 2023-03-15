@@ -3,7 +3,7 @@
 
         <div class="hero min-h-screen bg-base-100">
         <div class="hero-content flex-col lg:flex-row">
-            <img src="../assets/img/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl h-3/12 w-3/12 rounded-full hover:w-full hover:h-full m-16" />
+            <img src="/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl h-3/12 w-3/12 rounded-full hover:w-full hover:h-full m-16" />
             <div>
             <h1 class="text-5xl font-bold text-center lg:text-left">Harry Redman</h1>
             <p class="py-6 text-center lg:text-left">
