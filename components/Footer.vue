@@ -7,8 +7,6 @@
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a href="https://github.com/hazzaRR"><i class="devicon-github-original text-3xl"></i></a>
     <a href="https://www.linkedin.com/in/harry-redman-b3a153225/"><i class="devicon-linkedin-plain text-3xl"></i></a>
-    <a href="https://github.com/hazzaRR"><i class="devicon-github-original text-3xl"></i></a>
-    <a href="https://github.com/hazzaRR"><i class="devicon-github-original text-3xl"></i></a>
   </div>
 </footer>
 </template>
