@@ -30,7 +30,7 @@ const experiences = {
     html: {name:"HTML", icon:"devicon-html5-plain colored"},
     css: {name:"CSS", icon:"devicon-css3-plain colored"},
     tailwind: {name:"Tailwind CSS", icon:"devicon-tailwindcss-plain colored"},
-    android: {name:"Android Studio", icon:"devicon-androidstudio-plain colored"},
+    android: {name:"Spring Boot", icon:"devicon-spring-plain-wordmark colored"},
     github: {name:"Github", icon:"devicon-github-original colored"},
 }
 
