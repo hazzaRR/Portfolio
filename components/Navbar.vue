@@ -3,7 +3,7 @@
     <div class="navbar relative bg-white shadow dark:bg-gray-800">
     <div class="flex-1">
       <router-link to="/">
-                      <h1 class="w-auto h-6 sm:h-7 text-xl font-black">
+                      <h1 class="w-auto h-6 sm:h-7 text-xl font-black hover:text-blue-500 dark:hover:text-blue-400">
                           Harry Redman
                       </h1>
                   </router-link>

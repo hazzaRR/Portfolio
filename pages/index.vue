@@ -1,9 +1,12 @@
 <template>
     <div class="bg-neutral">
         <PersonalHero />
-        <div class="pb-16">
-            <h1 class="text-2xl font-bold text-center lg:text-left  lg:ml-2">Experience</h1>
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-evenly">
+        <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Technology Experience</h1>
+        <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
+            A list of all the different langueages, technologies and frameworks I have experience using to build different software
+        </p>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-evenly mt-10">
                 <div class="text-center" v-for="experience in experiences" v-bind:key="experience">
                     <i class="text-7xl" :class="experience.icon "></i>
                     <p class="font-bold">{{ experience.name }}</p>

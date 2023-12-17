@@ -1,5 +1,6 @@
 <template>
     <div class="bg-neutral">
+        <PersonalHero />
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Projects</h1>
 
@@ -18,7 +19,7 @@
                     </router-link>
 
                     <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                        {{ `${project.content.substring(0, 300)}...`}}
+                        {{ `${project.content.substring(0, 200)}...`}}
                     </p>
 
                     <p class="mt-3 text-md text-blue-500">{{project.technology}}</p>

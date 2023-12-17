@@ -25,9 +25,9 @@
                 </h1> -->
 
                 <div>
-                    <p class="my-10">{{ project.content }}</p>
+                    <p class="my-4">{{ project.content }}</p>
                 </div>
-                <div class="justify-end">
+                <div class="flex justify-end">
                     <a :href="project.githubRepoLink" class="px-6 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Github Repository link</a>
                 </div>
 
