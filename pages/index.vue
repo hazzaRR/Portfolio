@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-neutral">
         <PersonalHero />
         <div class="pb-16">
             <h1 class="text-2xl font-bold text-center lg:text-left  lg:ml-2">Experience</h1>
@@ -10,8 +10,6 @@
                 </div>
             </div>
         </div>
-
-        <Footer />
     </div>
 </template>
 

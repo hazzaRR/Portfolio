@@ -1,0 +1,32 @@
+[
+    {
+        "url": "gym-classification",
+        "title": "Gym exercise classification using time series",
+        "content": "My third year project which was coded in python using the sktime library to classify and predict gym exercises",
+        "imageUrl": "/Portfolio/exercise_classification_results.png",
+        "imageAlt": "A confusion matrix of the results form a time series experiment",
+        "githubRepoLink": "https://github.com/hazzaRR/ExerciseClassification",
+        "technology": "Python",
+        "technologies": [
+            "Python", "Sci-kit learn", "SKtime", "Pandas", "Flask"
+        ]
+    },
+    {
+        "url": "car-park-system",
+        "title": "Car park System",
+        "content": "My software engineering group project that we built using vanilla Javascript, HTML and CSS",
+        "imageUrl": "/Portfolio/carpark.png",
+        "imageAlt": "An image of the UI for selecting a carpark space",
+        "githubRepoLink": "https://github.com/hazzaRR/Parkarino",
+        "technology": "Javascript"
+    },
+    {
+        "url": "appointment-system",
+        "title": "Appointment Booking System",
+        "content": "An appointment booking system for a small local business that allows the owner to manage their appointments.",
+        "imageUrl": "/Portfolio/beautyroomcalendar.png",
+        "imageAlt": "A image of the display calendar for upcoming appointments",
+        "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
+        "technology": "Javascript"
+    }
+]
