@@ -4,7 +4,7 @@
         "title": "Exercise classification using time series",
         "content": "For my final year individual project at university, I used Python and the following libraries sktime, sklearn, NumPy, and pandas to develop time series classification algorithms that accurately predicted gym exercises from accelerometer and gyroscope data obtained from a smartphone's sensors.",
         "imageUrl": "/Portfolio/exercise_classification_results.png",
-        "imageAlt": "A confusion matrix of the results form a time series experiment",
+        "imageAlt": "A txt file with all the results of machine learning experiment",
         "githubRepoLink": "https://github.com/hazzaRR/ExerciseClassification",
         "technology": "Python",
         "technologies": [
@@ -16,8 +16,8 @@
         "title": "Real-time exercise classification app",
         "content": "As an extension of my individual university project, this project involved creating a real-time gym exercise detection app using the time series classification model I developed. The app utilises the accelerometer and gyroscope sensors present in an Android smartphone. I used Android Studio Java to build the app and access the phone’s sensors. Additionally, I deployed a Python Flask server that ran my trained machine learning model, allowing real-time predictions within the app."
         ,
-        "imageUrl": "/Portfolio/exercise_classification_results.png",
-        "imageAlt": "A confusion matrix of the results form a time series experiment",
+        "imageUrl": "/Portfolio/realtime_app.png",
+        "imageAlt": "Screnshots of android app showing the exercise prediction",
         "githubRepoLink": "https://github.com/hazzaRR/AndroidExerciseDetectionApp",
         "technology": "Java Android Studio",
         "technologies": [
@@ -28,24 +28,24 @@
         "url": "nuxt-booking-system",
         "title": "Nuxt Booking System",
         "content": "An appointment booking system for a small local business that allows customers to book an appointment and the owner to manage their appointments. The system was built using the following technologies: Node.js (Express backend), Nuxt.js, PostgreSQL, bcrypt, Git, Docker and Docker-compose",
-        "imageUrl": "/Portfolio/beautyroomcalendar.png",
-        "imageAlt": "A image of the display calendar for upcoming appointments",
+        "imageUrl": "/Portfolio/nuxt_booking.png",
+        "imageAlt": "An image of adjusting availability page",
         "githubRepoLink": "https://github.com/hazzaRR/NuxtBookingSystem",
-        "technology": "Javascript",
+        "technology": "JavaScript",
         "technologies": [
-            "Javascript", "Nuxt.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"
+            "JavaScript", "Nuxt.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"
         ]
     },
     {
         "url": "secure-blogsite",
         "title": "Secure Blog Site",
         "content": "For my third-year developing secure software group project, we developed a secure blog site that protects against the following online vulnerabilities: cross-site scripting, cross-site request forgery, SQL injection, account enumeration, session hijacking, and brute force attacks. We built the system using the following technologies: Node JS/Express JS, React, Postgres SQL, Git, GitHub, Trello, Mocha and Chai for testing, and an Agile approach for planning and building the blog site.",
-        "imageUrl": "/Portfolio/exercise_classification_results.png",
-        "imageAlt": "A confusion matrix of the results form a time series experiment",
+        "imageUrl": "/Portfolio/bloggerino.png",
+        "imageAlt": "landing page for secure blog site",
         "githubRepoLink": "https://github.com/hazzaRR/bloggerino_source",
-        "technology": "Javascript",
+        "technology": "JavaScript",
         "technologies": [
-            "Javascript", "React.js", "PostgreSQL", "Node.js", "HTML", "CSS"
+            "JavaScript", "React.js", "PostgreSQL", "Node.js", "HTML", "CSS"
         ]
     },
     {
@@ -55,9 +55,9 @@
         "imageUrl": "/Portfolio/carpark.png",
         "imageAlt": "An image of the UI for selecting a carpark space",
         "githubRepoLink": "https://github.com/hazzaRR/Parkarino",
-        "technology": "Javascript",
+        "technology": "JavaScript",
         "technologies": [
-            "Javascript", "HTML", "CSS", "Node.js"
+            "JavaScript", "HTML", "CSS", "Node.js"
         ]
     },
     {
@@ -65,11 +65,11 @@
         "title": "Appointment Booking System",
         "content": "An appointment booking system for a small local business that allows the owner to manage their appointments.",
         "imageUrl": "/Portfolio/beautyroomcalendar.png",
-        "imageAlt": "A image of the display calendar for upcoming appointments",
+        "imageAlt": "An image of the display calendar for upcoming appointments",
         "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
-        "technology": "Javascript",
+        "technology": "JavaScript",
         "technologies": [
-            "Javascript", "HTML", "CSS", "Node.js", "PostgreSQL", "Docker"
+            "JavaScript", "HTML", "CSS", "Node.js", "PostgreSQL", "Docker"
         ]
     }
 ]

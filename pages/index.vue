@@ -23,6 +23,7 @@
 const experiences = {
     python: {name:"Python", icon:"devicon-python-plain colored"},
     java: {name:"Java", icon:"devicon-java-plain colored"},
+    spring: {name:"Spring Boot", icon:"devicon-spring-plain-wordmark colored"},
     javascript: {name:"JavaScript", icon:"devicon-javascript-plain colored"},
     nuxt: {name:"Nuxt JS", icon:"devicon-nuxtjs-plain colored"},
     vue: {name:"Vue JS", icon:"devicon-vuejs-plain colored"},
@@ -31,8 +32,15 @@ const experiences = {
     html: {name:"HTML", icon:"devicon-html5-plain colored"},
     css: {name:"CSS", icon:"devicon-css3-plain colored"},
     tailwind: {name:"Tailwind CSS", icon:"devicon-tailwindcss-plain colored"},
-    android: {name:"Spring Boot", icon:"devicon-spring-plain-wordmark colored"},
     github: {name:"Github", icon:"devicon-github-original colored"},
+    azure: {name:"Azure", icon:"devicon-azure-plain colored"},
+    android: {name: "Android Studio", icon: "devicon-androidstudio-plain colored"},
+    docker: {name: "Docker", icon: "devicon-docker-plain colored"},
+    numpy: {name: "NumPy", icon: "devicon-numpy-original colored"},
+    pandas: {name: "Pandas", icon: "devicon-pandas-original colored"},
+    react: {name: "React JS", icon: "devicon-react-original colored"},
+    linux: {name: "Linux", icon: "devicon-linux-plain colored"},
+    latex: {name: "Latex", icon: "devicon-latex-original colored"}
 }
 
 </script>
