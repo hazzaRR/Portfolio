@@ -1,0 +1,76 @@
+[
+    {
+        "url": "gym-classification",
+        "title": "Exercise classification using time series",
+        "content": "During my final year at university, I completed my third-year computing project that looked at using Time Series Classification (TSC) to accurately classify different gym movements. To achieve this I trained and tested a variety of different TSC algorithms using time series data that was recorded using accelerometer and gyroscope data from an Android smartphone. Before developing models, I first cleaned and formatted the data to be instances that were 10 seconds long and had a frequency of 10 Hz. To complete this project I used Python and the following libraries sktime, sklearn, NumPy, and pandas.",
+        "imageUrl": "/Portfolio/exercise_classification_results.png",
+        "imageAlt": "A txt file with all the results of machine learning experiment",
+        "githubRepoLink": "https://github.com/hazzaRR/ExerciseClassification",
+        "technology": "Python",
+        "technologies": [
+            "Python", "Sci-kit learn", "SKtime", "Pandas", "Flask"
+        ],
+        "reportLink" : "/Portfolio/thirdYearProjectReport.pdf"
+    },
+    {
+        "url": "gym-classification-app",
+        "title": "Real-time exercise classification app",
+        "content": "As an extension of my individual final year university project, I developed a real-time gym exercise detection app that has a 99.9% accuracy using the time series classification model I developed. The app records accelerometer and gyroscope sensors in an Android smartphone at a frequency of 10 Hz and records 15 seconds of data. To create the app and access the phone's sensors, I utilised Android Studio Java. In addition, I set up a Python Flask server that ran my trained machine learning model, allowing for real-time predictions within the app by sending API calls to the Flask server."
+        ,
+        "imageUrl": "/Portfolio/realtime_app.png",
+        "imageAlt": "Screnshots of android app showing the exercise prediction",
+        "githubRepoLink": "https://github.com/hazzaRR/AndroidExerciseDetectionApp",
+        "technology": "Java Android Studio",
+        "technologies": [
+            "Python", "Pandas", "Flask", "Java", "Android Studio"
+        ]
+    },
+    {
+        "url": "nuxt-booking-system",
+        "title": "Nuxt Booking System",
+        "content": "An appointment booking system built using Nuxt.js, postgresSQL and Express.js which allows customers to book an appointment with an employee and gives employees the ability to set the availability, block certain days and change availability hours for certain days, whilst also managing their current bookings using different CRUD operations.",
+        "imageUrl": "/Portfolio/nuxt_booking.png",
+        "imageAlt": "An image of adjusting availability page",
+        "githubRepoLink": "https://github.com/hazzaRR/NuxtBookingSystem",
+        "technology": "JavaScript",
+        "technologies": [
+            "JavaScript", "Nuxt.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"
+        ]
+    },
+    {
+        "url": "secure-blogsite",
+        "title": "Secure Blog Site",
+        "content": "For my third-year developing secure software group project, we developed a secure blog site that protects against the following online vulnerabilities: cross-site scripting, cross-site request forgery, SQL injection, account enumeration, session hijacking, and brute force attacks. We built the system using the following technologies: Node JS/Express JS, React, Postgres SQL, Git, GitHub, Trello, Mocha and Chai for testing, and an Agile approach for planning and building the blog site.",
+        "imageUrl": "/Portfolio/bloggerino.png",
+        "imageAlt": "landing page for secure blog site",
+        "githubRepoLink": "https://github.com/hazzaRR/bloggerino_source",
+        "technology": "JavaScript",
+        "technologies": [
+            "JavaScript", "React.js", "PostgreSQL", "Node.js", "HTML", "CSS"
+        ]
+    },
+    {
+        "url": "car-park-system",
+        "title": "Car park System",
+        "content": "In my software engineering university group project, we built a carpark system using vanilla Javascript, HTML and CSS.  The system was created to help UEA manage the cars that enter and exit their car parks by allowing customers to book a space and providing directions to the car park's location using Google Maps API. As well as providing an administrator with the ability to block, free, and reserve spaces for customers whilst also adding new car parks to the system.",
+        "imageUrl": "/Portfolio/carpark.png",
+        "imageAlt": "An image of the UI for selecting a carpark space",
+        "githubRepoLink": "https://github.com/hazzaRR/Parkarino",
+        "technology": "JavaScript",
+        "technologies": [
+            "JavaScript", "HTML", "CSS", "Node.js"
+        ]
+    },
+    {
+        "url": "appointment-system",
+        "title": "Appointment Booking System",
+        "content": "An appointment booking system for a small local business that allows the owner to manage their appointments by using CRUD operations to create, update, delete and fetch appointments.",
+        "imageUrl": "/Portfolio/beautyroomcalendar.png",
+        "imageAlt": "An image of the display calendar for upcoming appointments",
+        "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
+        "technology": "JavaScript",
+        "technologies": [
+            "JavaScript", "HTML", "CSS", "Node.js", "PostgreSQL", "Docker"
+        ]
+    }
+]
