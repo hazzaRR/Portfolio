@@ -3,7 +3,7 @@
         {{ project }}
     </div> -->
 
-    <section class="bg-neutral">
+    <section class="bg-neutral-100 dark:bg-neutral">
     <div class="container px-6 py-4 mx-auto">
 
         <h1 class="block mt-4 text-2xl mx-auto md:w-1/2 w-full font-semibold text-gray-800 dark:text-white capitalize">{{project.title}}</h1>

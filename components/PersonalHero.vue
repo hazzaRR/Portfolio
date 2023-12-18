@@ -1,5 +1,5 @@
 <template>
-    <div class="hero min-h-screen bg-neutral">
+    <div class="hero min-h-screen bg-neutral-100 dark:bg-neutral">
         <div class="hero-content flex-col lg:flex-row">
             <img src="/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl w-full h-full m-16" />
         <div class="">

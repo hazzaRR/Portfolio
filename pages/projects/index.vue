@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-neutral">
-        <PersonalHero />
+    <div class="bg-neutral-100 dark:bg-neutral">
+        <!-- <PersonalHero /> -->
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Projects</h1>
 
