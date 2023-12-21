@@ -32,9 +32,9 @@
         "imageUrl": "/nuxt_booking.png",
         "imageAlt": "An image of adjusting availability page",
         "githubRepoLink": "https://github.com/hazzaRR/NuxtBookingSystem",
-        "technology": "JavaScript",
+        "technology": "Javascript",
         "technologies": [
-            "JavaScript", "Nuxt.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"
+            "Javascript", "Nuxt.js", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"
         ]
     },
     {
@@ -44,9 +44,9 @@
         "imageUrl": "/bloggerino.png",
         "imageAlt": "landing page for secure blog site",
         "githubRepoLink": "https://github.com/hazzaRR/bloggerino_source",
-        "technology": "JavaScript",
+        "technology": "Javascript",
         "technologies": [
-            "JavaScript", "React.js", "PostgreSQL", "Node.js", "HTML", "CSS"
+            "Javascript", "React.js", "PostgreSQL", "Node.js", "HTML", "CSS"
         ]
     },
     {
@@ -56,9 +56,9 @@
         "imageUrl": "/carpark.png",
         "imageAlt": "An image of the UI for selecting a carpark space",
         "githubRepoLink": "https://github.com/hazzaRR/Parkarino",
-        "technology": "JavaScript",
+        "technology": "Javascript",
         "technologies": [
-            "JavaScript", "HTML", "CSS", "Node.js"
+            "Javascript", "HTML", "CSS", "Node.js"
         ]
     },
     {
@@ -68,9 +68,9 @@
         "imageUrl": "/beautyroomcalendar.png",
         "imageAlt": "An image of the display calendar for upcoming appointments",
         "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
-        "technology": "JavaScript",
+        "technology": "Javascript",
         "technologies": [
-            "JavaScript", "HTML", "CSS", "Node.js", "PostgreSQL", "Docker"
+            "Javascript", "HTML", "CSS", "Node.js", "PostgreSQL", "Docker"
         ]
     }
 ]
