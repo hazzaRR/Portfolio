@@ -11,7 +11,7 @@
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div v-for="(project, index) in data" :key="index">
-                <img class="relative z-10 object-cover w-full rounded-md h-96" :src="project.images[0].url" :alt="project.images[0].alt">
+                <img class="relative z-10 object-cover w-full rounded-md h-96" :src="`/images/${project.url}/${project.images[0].url}`" :alt="project.images[0].alt">
 
                 <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-800">
                     <router-link :to="'/projects/' + project.url" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">

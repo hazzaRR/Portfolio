@@ -5,14 +5,12 @@
         </div>
   
         <button @click="previous" class="absolute left-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
-          <i class="fas fa-chevron-left text-2xl font-bold text-gray-500"></i>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
           </svg>
         </button>
   
         <button @click="next" class="absolute right-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
-          <i class="fas fa-chevron-right text-2xl font-bold text-gray-500"></i>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>
@@ -21,7 +19,7 @@
         <div class="">
           <template v-for="(image, index) in props.images" :key="index">
             <div v-show="currentIndex == index + 1" class="absolute top-0 left-0 w-full h-full transition transform duration-300" :class="{ 'opacity-0': currentIndex !== index + 1, 'opacity-100': currentIndex === index + 1 }">
-              <img :src="image.url" :alt="image.alt" class="object-cover w-full h-full rounded-xl" />
+              <img :src="`/images/${props.url}/${image.url}`" :alt="image.alt" class="object-cover w-full h-full rounded-xl" />
             </div>
           </template>
         </div>
@@ -33,7 +31,7 @@
 
 const currentIndex = ref(1);
 
-const props = defineProps(["images"])
+const props = defineProps(["images", "url"])
 
 
 const previous = () => {

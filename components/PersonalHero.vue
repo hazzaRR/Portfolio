@@ -1,7 +1,7 @@
 <template>
     <div class="hero min-h-screen bg-neutral-100 dark:bg-neutral">
         <div class="hero-content flex-col lg:flex-row">
-            <img src="/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl w-full h-full m-16" />
+            <img src="/images/profile_photo_Edited.jpg" class="max-w-sm shadow-2xl w-full h-full m-16" />
         <div class="">
             <h1 class="text-5xl font-bold text-center lg:text-left">Harry Redman</h1>
             <p class="py-6 text-center lg:text-left">

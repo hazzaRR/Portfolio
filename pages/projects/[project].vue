@@ -8,7 +8,7 @@
             <!-- <img class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96 mb-6" :src="project.images[0].url" :alt="project.images[0].alt"> -->
 
 
-            <ImageSlider class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96" :images="project.images"/>
+            <ImageSlider class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96" :images="project.images" :url="project.url"/>
 
             <div class="mt-6 mx-auto md:w-1/2 w-full">
                 <p class="text-sm text-blue-500 uppercase">technologies & Frameworks</p>
