@@ -1,15 +1,14 @@
 <template>
-    <!-- <div>
-        {{ project }}
-    </div> -->
-
     <section class="bg-neutral-100 dark:bg-neutral">
     <div class="container px-6 py-4 mx-auto">
 
         <h1 class="block mt-4 text-2xl mx-auto md:w-1/2 w-full font-semibold text-gray-800 dark:text-white capitalize">{{project.title}}</h1>
 
         <div class="mt-8">
-            <img class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96" :src="project.imageUrl" :alt="project.imageAlt">
+            <!-- <img class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96 mb-6" :src="project.images[0].url" :alt="project.images[0].alt"> -->
+
+
+            <ImageSlider class="object-cover md:w-1/2 w-full mx-auto rounded-xl h-72 lg:h-96" :images="project.images"/>
 
             <div class="mt-6 mx-auto md:w-1/2 w-full">
                 <p class="text-sm text-blue-500 uppercase">technologies & Frameworks</p>
