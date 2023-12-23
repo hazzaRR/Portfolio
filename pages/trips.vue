@@ -7,7 +7,7 @@
             A collection of all my travel journeys I have recorded using polarsteps
         </p>
         
-        <iframe class="w-full lg:w-6/12 mx-auto aspect-video mt-10" src="https://www.polarsteps.com/HarryRedman/8870729-south-east-asia/embed"></iframe>
+        <iframe class="w-full lg:w-6/12 mx-auto aspect-video mt-10 rounded-xl" src="https://www.polarsteps.com/HarryRedman/8870729-south-east-asia/embed"></iframe>
         </div>
     </div>
 </template>
