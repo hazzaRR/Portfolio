@@ -12,6 +12,17 @@
         "reportLink" : "/thirdYearProjectReport.pdf"
     },
     {
+        "url": "personal-blog",
+        "title": "Full stack personal blog app",
+        "content": "I developed a full-stack blog application to post about my interests and experiences using various technologies, including Spring Boot for the backend, Vue.js for the frontend, and PostgreSQL for the database. The blog app implemented full CRUD functionality, enabling users to perform Create, Read, Update, and Delete (CRUD) operations seamlessly through the REST API. Security was important and therefore I incorporated JSON Web Token (JWT) authentication with asymmetric keys using Spring Security to authenticate user interactions. I made use of Azure services for deployment in order to guarantee a dependable and seamless user experience. Azure Static Web Apps hosted the frontend, and Azure App Service was used to deliver the backend. I used GitHub Actions to create a continuous integration and continuous deployment (CI/CD) pipeline that streamlined the deployment process. This guarantees that any updates or modifications made to the codebase are smoothly integrated into the live application in addition to facilitating an automated deployment process. Furthermore, I set up a PostgreSQL database using Azure PostgreSQL servers to store blog posts and user information. This was also integrated with Azure Blob Storage for media file storage.",
+        "images": [{ "url": "add-post.png", "alt": "Adding post form"}, { "url": "edit-post.png", "alt": "Screnshot of editing a existing post"}, { "url": "manage-posts.png", "alt": "Screnshot of users existings post"}, { "url": "posts.png", "alt": "Screnshot of all existing public posts"}],
+        "githubRepoLink": "https://github.com/hazzaRR/PersonalBlogSpring",
+        "technology": "Java",
+        "technologies": [
+            "Java", "Spring Boot", "Vue.js", "PostgreSQL", "Azure", "Github Actions"
+        ]
+    },
+    {
         "url": "gym-classification-app",
         "title": "Real-time exercise classification app",
         "content": "As an extension of my individual final year university project, I developed a real-time gym exercise detection app that has a 99.9% accuracy using the time series classification model I developed. The app records accelerometer and gyroscope sensors in an Android smartphone at a frequency of 10 Hz and records 15 seconds of data. To create the app and access the phone's sensors, I utilised Android Studio Java. In addition, I set up a Python Flask server that ran my trained machine learning model, allowing for real-time predictions within the app by sending API calls to the Flask server.",
@@ -48,7 +59,7 @@
         "url": "car-park-system",
         "title": "Car park System",
         "content": "In my software engineering university group project, we built a carpark system using vanilla Javascript, HTML and CSS.  The system was created to help UEA manage the cars that enter and exit their car parks by allowing customers to book a space and providing directions to the car park's location using Google Maps API. As well as providing an administrator with the ability to block, free, and reserve spaces for customers whilst also adding new car parks to the system.",
-        "images": [{ "url": "carpark.png", "alt": "An image of the UI for selecting a carpark space"}],
+        "images": [{ "url": "carpark.png", "alt": "An image of the UI for selecting a carpark on Google Maps"},{ "url": "carpark-checkin.png", "alt": "An image of driver checking in to page"},{ "url": "carpark-login.png", "alt": "Login page"},{ "url": "carpark-gui.png", "alt": "An image of the UI for selecting a carpark space"}],
         "githubRepoLink": "https://github.com/hazzaRR/Parkarino",
         "technology": "Javascript",
         "technologies": [
