@@ -20,7 +20,8 @@
         "technology": "Java",
         "technologies": [
             "Java", "Spring Boot", "Vue.js", "PostgreSQL", "Azure", "Github Actions"
-        ]
+        ],
+        "websiteLink": "https://blog.harryredman.com"
     },
     {
         "url": "gym-classification-app",
