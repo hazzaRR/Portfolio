@@ -11,6 +11,17 @@
         ],
         "reportLink" : "/thirdYearProjectReport.pdf"
     },
+        {
+        "url": "appointment-booking-system",
+        "title": "Appointment Booking System",
+        "content": "I developed a robust appointment booking system tailored for local business owners. The backend, developed using Spring Boot, seamlessly integrates with a PostgreSQL database to allow owners to effortlessly create, update, delete, and manage appointments, services, and client details. The Vue 3 frontend enhances the user interface, ensuring a smooth experience for the owner and easy interaction with the REST API backend. One standout feature is the system's ability to generate summary reports of appointments within specified date ranges, simplifying administrative tasks for tax and business purposes. Additionally, the system offers a convenient PDF generation feature. To streamline communication, automated emails are sent to clients upon appointment creation, including comprehensive details and service information using Java Mail API. A unique touch is the integration of the Java Mail API, Spring Scheduler, and cron jobs, enabling the system to automatically send 24-hour reminders to clients before their scheduled appointments. Moreover, confirmation emails come with .ics files, allowing clients to effortlessly add appointments to their online calendars. This personal project showcases my proficiency in Java, Spring Boot, PostgreSQL, Vue 3, and my ability to create a practical, user-friendly solution for business management. To demonstrate my cloud skills and allow for seamless accessibility I deployed the whole system to Azure. The Spring boot backend is hosted on Azure App Service, the Vue.js frontend on Azure Static web apps and finally, the Postgres database using Postgres flexible server.",
+        "images": [{ "url": "dashboard.png", "alt": "Dashboard for managing appointments using different CRUD operations"}, { "url": "add-appointment.png", "alt": "Screenshot of adding a new appointment"}, { "url": "archive_treatments.png", "alt": "Screenshot of archiving a treatment service"}, { "url": "email_confirmation.png", "alt": "Screenshot of an email recieved by the client confirming their appointment"}, { "url": "generated_summary_report.png", "alt": "Screenshot of pdf file generated from details fetched for summary report"}, { "url": "search_treatments.png", "alt": "Screnshot of treatments table which is refined by search bar"}, { "url": "summary-report.png", "alt": "Screnshot of view to find the appointments completed between two date ranges"}],
+        "githubRepoLink": "https://github.com/hazzaRR/AppointmentBookingSpring",
+        "technology": "Java",
+        "technologies": [
+            "Java", "Spring Boot", "Vue.js", "PostgreSQL", "Azure", "Github Actions"
+        ]
+    },
     {
         "url": "personal-blog",
         "title": "Full stack personal blog app",
@@ -70,7 +81,7 @@
     {
         "url": "appointment-system",
         "title": "Appointment Booking System",
-        "content": "An appointment booking system for a small local business that allows the owner to manage their appointments by using CRUD operations to create, update, delete and fetch appointments.",
+        "content": "An appointment booking system built using Javascript, Html and CSS that allows the owner to manage their appointments by using CRUD operations to create, update, delete and fetch appointments.",
         "images": [{ "url": "beautyroomcalendar.png", "alt": "An image of the display calendar for upcoming appointments"}],
         "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
         "technology": "Javascript",
