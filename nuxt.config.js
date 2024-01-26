@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     telemetry: false,
     app: {
       head: {
-        title: 'Harry Redman',
+        title: 'Harry Redman | Aspiring Software Engineer',
         link: [
           {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css'},
           {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css', type:'text/css'},
@@ -13,10 +13,6 @@ export default defineNuxtConfig({
 
         ],
       },
-      // baseURL: '/Portfolio', // baseURL: '/<repository>/'
-      // router: {
-      //   base: '/Portfolio'
-      // },
     },
     modules: [
       '@nuxtjs/tailwindcss'

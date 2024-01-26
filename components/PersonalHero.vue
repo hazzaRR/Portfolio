@@ -6,7 +6,7 @@
             <h1 class="text-5xl font-bold text-center lg:text-left">Harry Redman</h1>
             <p class="py-6 text-center lg:text-left">
                 Hello, my name is Harry, and I recently graduated from the University of East Anglia with a first-class (Hons)
-                degree in Computer Science. I am a aspiring software engineer with a passion for machine learning, mobile development, and website development. 
+                degree in Computer Science. I am a aspiring software engineer currently based in Derby with a passion for machine learning, mobile development, and website development. 
                 Aside from coding, I enjoy being active by going to the gym, playing football, or running. I also enjoy watching sports, especially Formula One and football. 
                 One interesting fact about myself is that I am a type 1 diabetic.
             </p>
