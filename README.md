@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Portfolio Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Hi welcome to my repository for my portfolio website built using Nuxt 3. If you want to view the live site check it out here at [harryredman.com](https://www.harryredman.com).
+
+If you are interested in running locally here is a quick guide on how to do this:
 
 ## Setup
 
@@ -24,19 +26,3 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
