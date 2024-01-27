@@ -9,7 +9,7 @@ useHead({
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.harryredman.com' },
       { property: 'og:locale', content: 'en_gb' },
-      { property: 'og:image', content: '/images/profile_photo_edited.jpg' },
+      { property: 'og:image', content: '/images/profile_photo_Edited.jpg' },
       { name: "msapplication-TileColor", content: "#da532c"},
       { name: "theme-color", content: "#ffffff"}
     ],
