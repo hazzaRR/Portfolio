@@ -36,10 +36,12 @@ const router = useRouter();
 
 
 const back = () => {
+    clearError({});
     router.go(-1);
 }
 
 const home = () => {
+    clearError({});
     router.push("/");
 }
 

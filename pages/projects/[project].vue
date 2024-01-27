@@ -43,6 +43,11 @@ const project = computed(() => {
   return data.find(project => project.url === projectRoute);
 });
 
+
+if (!project.value) {
+    throw createError({statusCode: 404, statusMessage: "Project not found"});
+}
+
 </script>
 
 <style lang="scss" scoped>
