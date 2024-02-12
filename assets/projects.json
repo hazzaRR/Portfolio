@@ -92,7 +92,7 @@
     },
     {
         "url": "appointment-system",
-        "title": "Appointment Booking System Vanilla Javascript",
+        "title": "Appointment Booking System Vanilla JS",
         "content": "An appointment booking system built using Javascript, Html and CSS that allows the owner to manage their appointments by using CRUD operations to create, update, delete and fetch appointments.",
         "images": [{ "url": "beautyroomcalendar.png", "alt": "An image of the display calendar for upcoming appointments"}],
         "githubRepoLink": "https://github.com/hazzaRR/BeautyRoomBookings",
