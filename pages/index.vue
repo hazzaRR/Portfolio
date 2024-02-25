@@ -13,6 +13,13 @@
                 </div>
             </div>
         </div>
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Goals and Current Projects</h1>
+            <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
+                These are a the current projects that I am working on or some of the projects that I am wanting to start in the near future
+            </p>
+            <OnGoingProjects />
+        </div>
     </div>
 </template>
 
