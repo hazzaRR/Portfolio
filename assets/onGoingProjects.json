@@ -38,10 +38,10 @@
     },
     {
         "name": "Phone Sensor Capturing Mobile App",
-        "type": "C# API server and kotlin frontend app that allows user to record the phone sensor data from the phone with the option of saving captured data locally as CSV file or pushing it in realtime to a C# rest api server",
+        "type": "C# API server and kotlin frontend app",
         "started": false,
-        "descriptionTitle": "P",
-        "description": "",
+        "descriptionTitle": "Phone Sensor recording",
+        "description": "C# API server and kotlin frontend app that allows user to record the phone sensor data from the phone with the option of saving captured data locally as CSV file or pushing it in realtime to a C# rest api server",
         "technologies": [
             "C#",
             "ASP .NET",
