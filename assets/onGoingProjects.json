@@ -1,5 +1,26 @@
 [
     {
-
-    }
+        "name": "Learning Kotlin Fundamental",
+        "type": "Android Native development",
+        "started": true,
+        "descriptionTitle": "Android application",
+        "description": "Teaching myself the fundamentals for Kotlin and how to develop Mobile applications using Kotlin Jetpack Compose so I can create the frontend application for my NFC storage system app",
+        "technologies": [
+            "Kotlin"
+        ],
+        "progress": "w-3/12"
+    },
+    {
+        "name": "NFC Inventory/Storage System",
+        "type": "Mobile and REST API",
+        "started": true,
+        "descriptionTitle": "Mobile application and REST API server",
+        "description": "A storage system solution for finding where the storage bin where an item is stored. The idea is to create a Kotlin frontend app that allows you to write and read a NFC sticker tag to create and view a storage bin. With this you can then add items to a specific bin. Allowing a user to search for an item and find the bin number/numbers of where that item is stored. This will be stored in a REST API backend with a relational database",
+        "technologies": [
+            "Kotlin",
+            "Java",
+            "PostgreSQL"
+        ],
+        "progress": "w-1/3"
+    },
 ]
