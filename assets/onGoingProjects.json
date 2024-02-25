@@ -1,6 +1,6 @@
 [
     {
-        "name": "Learning Kotlin Fundamental",
+        "name": "Learning Kotlin Fundamentals",
         "type": "Android Native development",
         "started": true,
         "descriptionTitle": "Android application",
@@ -8,7 +8,20 @@
         "technologies": [
             "Kotlin"
         ],
-        "progress": "w-3/12"
+        "progress": "w-5/12"
+    },
+    {
+        "name": "Learning C#",
+        "type": "C# fundamentals and also ASP .NET",
+        "started": false,
+        "descriptionTitle": "Teaching myself the fundamentals of C# and trying to understand the eco systems I can started creating projects using C#",
+        "description": "",
+        "technologies": [
+            "C#",
+            "MVC",
+            "ASP .NET"
+        ],
+        "progress": "w-1/12"
     },
     {
         "name": "NFC Inventory/Storage System",
@@ -22,5 +35,5 @@
             "PostgreSQL"
         ],
         "progress": "w-1/3"
-    },
+    }
 ]
