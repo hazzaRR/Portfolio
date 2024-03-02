@@ -26,15 +26,15 @@
     {
         "name": "Learning C#",
         "type": "C# fundamentals and also ASP .NET",
-        "started": false,
-        "descriptionTitle": "Teaching myself the fundamentals of C# and trying to understand the eco systems I can started creating projects using C#",
-        "description": "",
+        "started": true,
+        "descriptionTitle": "Teaching myself the fundamentals of C# and .NET 8 so I can started creating projects using C#",
+        "description": "So far, I have read the C# for Java developers MSDN to help learn the C# language and the similarities and differences in how both languages work. Also started trying to recreate my derby county API using .Net ASP. Currently, I am looking into the entity framework ORM to learn how to interact with PostgreSQL database",
         "technologies": [
             "C#",
             "MVC",
             "ASP .NET"
         ],
-        "progress": "w-1/12"
+        "progress": "w-3/12"
     },
     {
         "name": "Phone Sensor Capturing Mobile App",
