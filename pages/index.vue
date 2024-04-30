@@ -29,6 +29,8 @@
 
 const experiences = {
     python: {name:"Python", icon:"devicon-python-plain colored"},
+    csharp: {name:"C#", icon:"devicon-csharp-plain colored"},
+    dotnetcore: {name:".Net Core", icon:"devicon-dotnetcore-plain colored"},
     java: {name:"Java", icon:"devicon-java-plain colored"},
     spring: {name:"Spring Boot", icon:"devicon-spring-plain-wordmark colored"},
     javascript: {name:"JavaScript", icon:"devicon-javascript-plain colored"},
@@ -47,6 +49,8 @@ const experiences = {
     pandas: {name: "Pandas", icon: "devicon-pandas-original colored"},
     react: {name: "React JS", icon: "devicon-react-original colored"},
     linux: {name: "Linux", icon: "devicon-linux-plain colored"},
+    vscode: {name: "VS Code", icon: "devicon-vscode-plain colored"},
+    visualstudio: {name: "Visual Studio", icon: "devicon-visualstudio-plain colored"},
     latex: {name: "Latex", icon: "devicon-latex-original colored"}
 }
 
