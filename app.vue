@@ -1,11 +1,11 @@
 <script  setup>
 
 useHead({
-  title: "Harry Redman | Aspiring Software Engineer",
+  title: "Harry Redman | Software Engineer",
   meta: [
-      { name: 'description', content: 'Harry Redman - Aspiring Software Engineer based in Derby, UK. Looking for an entry level software engineering role based in either Derby, London or Essex. Explore my portfolio showcasing skills in Java, Python, SQL, Spring Boot, Vue, Nuxt, React, Linux and Javascript.'},
-      { property: 'og:title', content: 'Harry Redman | Aspiring Software Engineer' },
-      { property: 'og:description', content: 'Harry Redman - Aspiring Software Engineer based in Derby, UK. Looking for an entry level software engineering role based in either Derby, London or Essex. Explore my portfolio showcasing skills in Java, Python, SQL, Spring Boot, Vue, Nuxt, React, Linux and Javascript.' },
+      { name: 'description', content: 'Harry Redman - Software Engineer based in London, UK. Explore my portfolio showcasing skills in C#, Java, Python, SQL, Spring Boot, Vue, Nuxt, React, Linux and Javascript.'},
+      { property: 'og:title', content: 'Harry Redman | Software Engineer' },
+      { property: 'og:description', content: 'Harry Redman - Software Engineer based in London, UK. Explore my portfolio showcasing skills in C#, Java, Python, SQL, Spring Boot, Vue, Nuxt, React, Linux and Javascript.' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.harryredman.com' },
       { property: 'og:locale', content: 'en_gb' },
