@@ -26,3 +26,9 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
+
+
+## building new version
+```bash
+npx nuxi build
+```
